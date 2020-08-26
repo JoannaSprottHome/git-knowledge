@@ -24,6 +24,22 @@ Practice repo for interview questions abbout git/github.
 `git pull`  
 `git branch -D <branch-to-delete>`   
 
+### Git questions:
+
+1. In Git how do you revert a commit that has already been pushed and made public?
+2. How do you squash last N commits into a single commit?
+3. What is Git bisect? How can you use it to determine the source of a (regression) bug?
+4. What is Git rebase and how can it be used to resolve conflicts in a feature branch before merge?
+5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?
+6. How do you find a list of files that has changed in a particular commit?
+7. How do you setup a script to run every time a repository receives new commits through push?
+8. How will you know in Git if a branch has already been merged into master?
+9. How is a bare repository different from the standard way of initializing a Git repository?
+10. Explain the difference between git fetch and git pull.
+11. Demonstrate example of `git stash`.
+12. What is the difference between Git Merge and Git Rebase?
+
+
 ### Branching strategies to investigate:
 
 - **Feature branching**
@@ -36,3 +52,5 @@ Once the develop branch has acquired enough features for a release, you can clon
 #### References:
 - https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/
 - https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions
+- https://www.edureka.co/blog/interview-questions/git-interview-questions/
+- https://www.softwaretestinghelp.com/git-interview-questions/
