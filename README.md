@@ -24,6 +24,14 @@ Practice repo for interview questions abbout git/github.
 `git pull`  
 `git branch -D <branch-to-delete>`   
 
+### Previous commits and reverting
+
+`git log -1`   
+`git checkout <previous-commit>`   
+`git revert <previous-commit>`  
+`git revert --abort`   
+If you are on a detached head, create a new branch and you will see your changes when you push.
+
 ### Git questions:
 
 1. In Git how do you revert a commit that has already been pushed and made public?
