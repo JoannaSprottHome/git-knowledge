@@ -49,8 +49,15 @@ In this model each task is implemented on its own branch with the task key inclu
 - **Release branching**
 Once the develop branch has acquired enough features for a release, you can clone that branch to form a Release branch. Creating this branch starts the next release cycle, so no new features can be added after this point, only bug fixes, documentation generation, and other release-oriented tasks should go in this branch. Once it is ready to ship, the release gets merged into master and tagged with a version number. In addition, it should be merged back into develop branch, which may have progressed since the release was initiated.
 
+### Tasks:
+- Set up git tree to view changes
+- Eplore github UI a bit more
+- Set up a bot for github using [probot](https://github.com/probot/probot) after trying out some existing ones.
+
 #### References:
 - https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/
 - https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions
 - https://www.edureka.co/blog/interview-questions/git-interview-questions/
 - https://www.softwaretestinghelp.com/git-interview-questions/
+- https://hackernoon.com/git-commands-that-every-developer-must-know-qs1n3yex
+
