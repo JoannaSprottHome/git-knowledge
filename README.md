@@ -3,6 +3,8 @@
 <p float="left">
   <img src="images/git-icon.png" width="30" />
   <img src="images/git-hub-icon.png" width="30" /> 
+  <img src="images/html-icon.png" width="30" />
+  <img src="images/css-icon3.jpeg" width="27" /> 
 </p>
 
 Practice repo for interview questions abbout git/github.
