@@ -32,6 +32,8 @@ Practice repo for interview questions abbout git/github.
 `git revert --abort`   
 If you are on a detached head, create a new branch and you will see your changes when you push.
 
+`git revert HEAD ~1` - only works on local changes, not after branch has been pushed.
+
 ### Git questions:
 
 1. In Git how do you revert a commit that has already been pushed and made public?
