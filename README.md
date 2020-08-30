@@ -36,6 +36,11 @@ If you are on a detached head, create a new branch and you will see your changes
 
 `git revert HEAD ~1` - only works on local changes, not after branch has been pushed.
 
+### Other
+
+`git checkout -f <branch_name>` switch to another branch by losing all the local changes.
+`git branch -m <new-branch-name>
+
 ### Git questions:
 
 1. In Git how do you revert a commit that has already been pushed and made public?
