@@ -38,8 +38,19 @@ If you are on a detached head, create a new branch and you will see your changes
 
 ### Other
 
-`git checkout -f <branch_name>` switch to another branch by losing all the local changes.
-`git branch -m <new-branch-name>
+`git checkout -f <branch_name>`  switch to another branch by losing all the local changes.
+`git branch -m <new-branch-name>`   
+
+
+### Different between fetch and pull
+
+| fetch    |      pull      |
+|----------|:-------------:|
+| Only downloads new data from a remote repository                             | Updates the current HEAD branch with the latest changes from the remote server | 
+| Does not integrate any new data into your working files.                     | Downloads new data and integrate it with the current working files             |
+| Users can run a Git fetch at any time to update the remote-tracking branches | Tries to merge remote changes with your local ones                             |
+| `git fetch origin`, `git fetch –-all` (origin is only one of the remotes)    | `git pull origin master`                                                       |
+
 
 ### Git questions:
 
