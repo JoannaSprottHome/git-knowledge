@@ -44,7 +44,8 @@ If you are on a detached head, create a new branch and you will see your changes
 `git stash pop`   
 `git stash list`  
 `git stash show`
-`git stash pop stash@{2}` - choose which stash to apply
+`git stash pop stash@{2}` - choose which stash to apply   
+`git stash clear` - get rid of them all
 
 
 ### Other
