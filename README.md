@@ -36,6 +36,17 @@ If you are on a detached head, create a new branch and you will see your changes
 
 `git revert HEAD ~1` - only works on local changes, not after branch has been pushed.
 
+### git stash
+
+`git stash`   
+`git stash -u`  include new files just added (untracked)   
+`git stash --all`  - include file on gitignore   
+`git stash pop`   
+`git stash list`  
+`git stash show`
+`git stash pop stash@{2}` - choose which stash to apply
+
+
 ### Other
 
 `git checkout -f <branch_name>`  switch to another branch by losing all the local changes.
@@ -63,8 +74,8 @@ If you are on a detached head, create a new branch and you will see your changes
 7. How do you setup a script to run every time a repository receives new commits through push?
 8. How will you know in Git if a branch has already been merged into master?
 9. How is a bare repository different from the standard way of initializing a Git repository?
-10. Explain the difference between git fetch and git pull.
-11. Demonstrate example of `git stash`.
+10. Explain the difference between git fetch and git pull. ✔️
+11. Demonstrate example of `git stash`. ✔️
 12. What is the difference between Git Merge and Git Rebase?
 
 
@@ -78,7 +89,7 @@ In this model each task is implemented on its own branch with the task key inclu
 Once the develop branch has acquired enough features for a release, you can clone that branch to form a Release branch. Creating this branch starts the next release cycle, so no new features can be added after this point, only bug fixes, documentation generation, and other release-oriented tasks should go in this branch. Once it is ready to ship, the release gets merged into master and tagged with a version number. In addition, it should be merged back into develop branch, which may have progressed since the release was initiated.
 
 ### Tasks:
-- Set up git tree to view changes
+- Set up git tree to view changes ✔️
 - Eplore github UI a bit more
 - Set up a bot for github using [probot](https://github.com/probot/probot) after trying out some existing ones.
 
