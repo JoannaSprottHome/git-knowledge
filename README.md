@@ -68,7 +68,10 @@ If you are on a detached head, create a new branch and you will see your changes
 
 1. In Git how do you revert a commit that has already been pushed and made public?
 2. How do you squash last N commits into a single commit?
-3. What is Git bisect? How can you use it to determine the source of a (regression) bug?
+3. What is Git bisect? How can you use it to determine the source of a (regression) bug?   
+
+Run `git bisect start`, check out a previous commit that you know if correct and run `git bisect good`. Then checkout out a broken one and run `git bisect bad`. git will then select a commit in the middle and you mark it good/bad. Keep doing this until you find the commit with the problem.
+
 4. What is Git rebase and how can it be used to resolve conflicts in a feature branch before merge?
 5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?
 6. How do you find a list of files that has changed in a particular commit?
