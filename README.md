@@ -76,11 +76,17 @@ Run `git bisect start`, check out a previous commit that you know if correct and
 5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?
 6. How do you find a list of files that has changed in a particular commit?
 7. How do you setup a script to run every time a repository receives new commits through push?
-8. How will you know in Git if a branch has already been merged into master?
+8. How will you know in Git if a branch has already been merged into master? ✔️
+
+`git branch --no-merged master` 
+
 9. How is a bare repository different from the standard way of initializing a Git repository?
 10. Explain the difference between git fetch and git pull. ✔️
 11. Demonstrate example of `git stash`. ✔️
-12. What is the difference between Git Merge and Git Rebase?
+12. What is the difference between Git Merge and Git Rebase? ✔️
+
+Rebase makes the history a straight line so it's cleaner (useful if you have lots of merging and it looks mesy, but it's hard to unpick commits).
+
 
 
 ### Branching strategies to investigate:
