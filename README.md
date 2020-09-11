@@ -7,14 +7,14 @@
   <img src="images/css-icon3.jpeg" width="27" /> 
 </p>
 
-Practice repo for interview questions abbout git/github.
+Practice repo for interview questions about git/github.
 
 ### Most Common Commands
 
 `git init`  
 `git clone`  
 `git status`  
-`git add .`  
+`git add`  
 `git commit -m "message"`  
 `git remote add origin https://github.com/JoannaSprottHome/git-knowledge.git`  
 `git push -u origin master` - first push  
@@ -36,7 +36,7 @@ If you are on a detached head, create a new branch and you will see your changes
 
 `git revert HEAD ~1` - only works on local changes, not after branch has been pushed.
 
-### git stash
+### Git stash
 
 `git stash`   
 `git stash -u`  include new files just added (untracked)   
@@ -50,16 +50,16 @@ If you are on a detached head, create a new branch and you will see your changes
 
 ### Other
 
-`git checkout -f <branch_name>`  switch to another branch by losing all the local changes.
+`git checkout -f <branch_name>`  switch to another branch by losing all the local changes. <br>
 `git branch -m <new-branch-name>`   
 
 
 ### Different between fetch and pull
 
 | fetch    |      pull      |
-|----------|:-------------:|
+|:----------:|:-------------:|
 | Only downloads new data from a remote repository                             | Updates the current HEAD branch with the latest changes from the remote server | 
-| Does not integrate any new data into your working files.                     | Downloads new data and integrate it with the current working files             |
+| Does not integrate any new data into your working files.                     | Downloads new data and integrates it with the current working files            |
 | Users can run a Git fetch at any time to update the remote-tracking branches | Tries to merge remote changes with your local ones                             |
 | `git fetch origin`, `git fetch –-all` (origin is only one of the remotes)    | `git pull origin master`                                                       |
 
@@ -104,9 +104,9 @@ Once the develop branch has acquired enough features for a release, you can clon
 - Set up a bot for github using [probot](https://github.com/probot/probot) after trying out some existing ones. ✔️
 
 #### References:
-- https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/
-- https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions
-- https://www.edureka.co/blog/interview-questions/git-interview-questions/
-- https://www.softwaretestinghelp.com/git-interview-questions/
-- https://hackernoon.com/git-commands-that-every-developer-must-know-qs1n3yex
+- [Git Commands That Every Developer Must Know](https://hackernoon.com/git-commands-that-every-developer-must-know-qs1n3yex)
+- [Most Popular DevOps Interview Questions and Answers](https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions)
+- [Top 40 GIT Interview Questions And Answers In 2020](https://www.softwaretestinghelp.com/git-interview-questions/)
+- [Top DevOps Interview Questions You Must Prepare In 2020](https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/)
+- [Top Git Interview Questions You Need To Prepare In 2020](https://www.edureka.co/blog/interview-questions/git-interview-questions/)
 
