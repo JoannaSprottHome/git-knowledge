@@ -7,7 +7,7 @@
   <img src="images/css-icon3.jpeg" width="27" /> 
 </p>
 
-Practice repo for interview questions abbout git/github.
+Practice repo for interview questions about git/github.
 
 ### Most Common Commands
 
