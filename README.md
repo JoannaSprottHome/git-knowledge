@@ -100,7 +100,7 @@ Once the develop branch has acquired enough features for a release, you can clon
 
 ### Tasks:
 - Set up git tree to view changes ✔️
-- Eplore github UI a bit more
+- Explore github UI a bit more
 - Set up a bot for github using [probot](https://github.com/probot/probot) after trying out some existing ones. ✔️
 
 #### References:
