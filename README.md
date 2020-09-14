@@ -67,6 +67,9 @@ If you are on a detached head, create a new branch and you will see your changes
 ### Git questions:
 
 1. In Git how do you revert a commit that has already been pushed and made public?
+
+https://stackoverflow.com/questions/22682870/git-undo-pushed-commits
+
 2. How do you squash last N commits into a single commit?
 3. What is Git bisect? How can you use it to determine the source of a (regression) bug? ✔️   
 
