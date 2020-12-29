@@ -107,6 +107,7 @@ Once the develop branch has acquired enough features for a release, you can clon
 - Set up a bot for github using [probot](https://github.com/probot/probot) after trying out some existing ones. ✔️
 - Create a new project with github actions set up
 - Finish github profile with udacity videos
+- Research `git switch`
 
 #### References:
 - https://www.edureka.co/blog/interview-questions/top-devops-interview-questions-2016/
