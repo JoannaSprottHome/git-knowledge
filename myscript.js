@@ -4,5 +4,6 @@
  */
 function myFunction () {
     console.log("Running Javascript");
+    console.log("This is change B1");
 }
 myFunction();
