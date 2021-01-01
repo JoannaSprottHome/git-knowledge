@@ -5,5 +5,7 @@
 function myFunction () {
     console.log("Running Javascript");
     console.log("This is change B1");
+    console.log("This is change B2");
+    console.log("This is change B3");
 }
 myFunction();
