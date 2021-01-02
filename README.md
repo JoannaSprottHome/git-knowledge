@@ -76,6 +76,26 @@ https://stackoverflow.com/questions/22682870/git-undo-pushed-commits
 Run `git bisect start`, check out a previous commit that you know if correct and run `git bisect good`. Then checkout out a broken one and run `git bisect bad`. git will then select a commit in the middle and you mark it good/bad. Keep doing this until you find the commit with the problem.
 
 4. What is Git rebase and how can it be used to resolve conflicts in a feature branch before merge?
+
+Ensure you are on the master branch:- <br/>
+```git checkout master```                        
+
+
+$ git pull                                   
+  /* pull the latest from the remote */ 
+
+$ git checkout my-feature-branch             
+  /* checkout the feature branch */
+
+$ git push origin my-feature-branch          
+  /* update your copy in the repo */
+
+$ git rebase master                          
+  /* rebase on the master branch */
+
+$ git push origin my-feature-branch --force  
+  /* force update the remote */
+
 5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?
 6. How do you find a list of files that has changed in a particular commit?
 7. How do you setup a script to run every time a repository receives new commits through push?
