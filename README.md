@@ -66,16 +66,18 @@ If you are on a detached head, create a new branch and you will see your changes
 
 ### Git questions:
 
-1. In Git how do you revert a commit that has already been pushed and made public?
+**1. In Git how do you revert a commit that has already been pushed and made public?**
 
 https://stackoverflow.com/questions/22682870/git-undo-pushed-commits
 
-2. How do you squash last N commits into a single commit?
-3. What is Git bisect? How can you use it to determine the source of a (regression) bug? ✔️   
+**2. How do you squash last N commits into a single commit?** <br/>
+**3. What is Git bisect? How can you use it to determine the source of a (regression) bug? ✔️** 
 
 Run `git bisect start`, check out a previous commit that you know if correct and run `git bisect good`. Then checkout out a broken one and run `git bisect bad`. git will then select a commit in the middle and you mark it good/bad. Keep doing this until you find the commit with the problem.
 
-4. What is Git rebase and how can it be used to resolve conflicts in a feature branch before merge?
+**4. What is Git rebase and how can it be used to resolve conflicts in a feature branch before merge?**
+
+Rebase is a way to combine commits so that they are stacked sequentially in the history.
 
 Ensure you are on the master branch:- <br/>
 ```git checkout master```                        
@@ -96,17 +98,23 @@ Force update the remote:- <br/>
 ```git push origin my-feature-branch --force```
   
 
-5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?
-6. How do you find a list of files that has changed in a particular commit?
-7. How do you setup a script to run every time a repository receives new commits through push?
-8. How will you know in Git if a branch has already been merged into master? ✔️
+**5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?** <br/>
+**6. How do you find a list of files that has changed in a particular commit?** <br/>
+**7. How do you setup a script to run every time a repository receives new commits through push?** <br/>
+**8. How will you know in Git if a branch has already been merged into master? ✔️**
 
 `git branch --no-merged master` 
 
-9. How is a bare repository different from the standard way of initializing a Git repository?
-10. Explain the difference between git fetch and git pull. ✔️
-11. Demonstrate example of `git stash`. ✔️
-12. What is the difference between Git Merge and Git Rebase? ✔️
+**9. How is a bare repository different from the standard way of initializing a Git repository?** <br/>
+**10. Explain the difference between git fetch and git pull. ✔️**
+
+`git pull` = `git fetch` + `git merge`
+
+`Fetch` updates the local copy of the remote.
+
+
+**11. Demonstrate example of `git stash`. ✔️** <br/>
+**12. What is the difference between Git Merge and Git Rebase? ✔️** <br/>
 
 Rebase makes the history a straight line so it's cleaner (useful if you have lots of merging and it looks mesy, but it's hard to unpick commits).
 
