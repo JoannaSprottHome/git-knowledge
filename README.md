@@ -80,21 +80,21 @@ Run `git bisect start`, check out a previous commit that you know if correct and
 Ensure you are on the master branch:- <br/>
 ```git checkout master```                        
 
+Pull the latest from the remote:- <br/>
+```git pull```                                  
 
-$ git pull                                   
-  /* pull the latest from the remote */ 
+Checkout the feature branch:- <br/>
+```git checkout my-feature-branch```             
 
-$ git checkout my-feature-branch             
-  /* checkout the feature branch */
-
-$ git push origin my-feature-branch          
-  /* update your copy in the repo */
-
-$ git rebase master                          
-  /* rebase on the master branch */
-
-$ git push origin my-feature-branch --force  
-  /* force update the remote */
+Update your copy in the repo:- <br/>
+```git push origin my-feature-branch```      
+  
+Rebase on the master branch:- <br/>
+```git rebase master```                
+  
+Force update the remote:- <br/>
+```git push origin my-feature-branch --force```
+  
 
 5. How do you configure a Git repository to run code sanity checking tools right before making commits, and preventing them if the test fails?
 6. How do you find a list of files that has changed in a particular commit?
