@@ -8,5 +8,6 @@ function myFunction () {
     console.log("This is change B2");
     console.log("This is change B3");
     console.log("Rebase 2");
+    console.log("Change on the feature branch 2");
 }
 myFunction();
