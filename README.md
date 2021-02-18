@@ -128,6 +128,8 @@ A feature branch model keeps all of the changes for a particular feature inside 
 In this model each task is implemented on its own branch with the task key included in the branch name. It is easy to see which code implements which task, just look for the task key in the branch name.
 - **Release branching**
 Once the develop branch has acquired enough features for a release, you can clone that branch to form a Release branch. Creating this branch starts the next release cycle, so no new features can be added after this point, only bug fixes, documentation generation, and other release-oriented tasks should go in this branch. Once it is ready to ship, the release gets merged into master and tagged with a version number. In addition, it should be merged back into develop branch, which may have progressed since the release was initiated.
+- **Trunk-based vs branch-based**
+Using Optimizely for feature flags
 
 ### Tasks:
 - Set up git tree to view changes ✔️
